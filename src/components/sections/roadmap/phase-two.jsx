@@ -1,0 +1,50 @@
+import React from "react";
+import { phaseTwo } from "../../../helpers/roadmap";
+import ShumoRoadmapTwo from "../../../images/roadmap/shumo-roadmap-2.png";
+import Parchment from "../../../images/roadmap/parchment-roadmap.svg";
+import CheckIcon from "../../../images/icons/check-icon.svg";
+const PhaseTwo = () => {
+    return (
+        <div
+            style={{
+                background: `url(${Parchment}) no-repeat`,
+                height: "640px",
+                width: "100%",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+            }}
+            className="flex flex-col  items-center relative mt-40"
+        >
+            <img
+                src={ShumoRoadmapTwo}
+                alt="Shumo roadmap 1"
+                className="absolute -top-40"
+            />
+            <div className="pt-24 flex flex-col items-center">
+                <h4 className="text-4xl text-shumo-red font-bold uppercase">
+                    Phase 2
+                </h4>
+                <h4 className="text-4xl text-shumo-red font-bold uppercase">
+                    Feb 2022
+                </h4>
+            </div>
+            <div className="mt-12">
+                <ul className="space-y-1">
+                    {phaseTwo.map((item, index) => (
+                        <li
+                            key={index}
+                            className="flex space-x-2 items-center text-shumo-softBrown"
+                        >
+                            {item.isCompleted && (
+                                <img src={CheckIcon} alt="Check icon" />
+                            )}
+                            <span>{item.name}</span>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    );
+};
+
+export default PhaseTwo;

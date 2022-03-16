@@ -1,0 +1,18 @@
+.bg-hero {
+    background: radial-gradient(113.94% 115.9% at 51.91% -21.93%, #ED5135 0%, rgba(237, 81, 53, 0) 100%),url("../../../images/hero-bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 950px;
+    width: 100%;
+    padding-top: 10rem;
+    overflow: hidden;
+}
+
+
+@media (min-width: 1700px) {
+    .bg-hero {
+        background-size: contain;
+    }
+}
+    

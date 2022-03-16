@@ -16,7 +16,7 @@ import {
     getTokenPrice1H,
     getTokenPrice1M,
     getTokenPrice7D,
-} from "../../services/api/stats";
+} from "../../../services/api/stats";
 import { options } from "../../../helpers/statsOptions";
 
 ChartJS.register(

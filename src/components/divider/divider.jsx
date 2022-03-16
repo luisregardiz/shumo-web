@@ -8,7 +8,7 @@ const Divider = () => {
             viewBox="0 0 423 63"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-full my-5"
+            className="w-full my-5 px-10"
         >
             <path d="M193 30.3101H5V31.8101H193V30.3101Z" fill="#FFA898" />
             <path d="M418 30.3101H230V31.8101H418V30.3101Z" fill="#FFA898" />

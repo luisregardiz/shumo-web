@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="basis-1/2 flex flex-col items-center justify-center md:pb-0 pb-20">
+                <div className="basis-1/2 flex flex-col items-center justify-center md:pb-0 pb-36">
                     <img src={Dojo} alt="Dojo" className="mb-5" />
                     <h2 className="text-center font-bold text-4xl text-shumo-softBrown mb-10">
                         JOIN THE SHUMO DOJO TODAY

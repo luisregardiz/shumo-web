@@ -44,7 +44,7 @@ const Service = () => {
     ];
 
     return (
-        <section className="max-w-screen-xl mx-auto flex flex-col h-full my-20 px-5">
+        <section className="max-w-screen-xl mx-auto flex flex-col h-full my-20 px-5 items-center">
             <h2 className="text-center font-bold text-4xl text-shumo-softBrown mb-8">
                 A UNSTOPPABLE SHIBA AT YOUR SERVICE
             </h2>
@@ -73,6 +73,16 @@ const Service = () => {
                         </p>
                     </div>
                 ))}
+            </div>
+            <div>
+                <a
+                    href="https://shumo.io/files/Whitepaper_Shumo_v3.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="my-10 btn bg-shumo-red text-shumo-softRed px-10 text-center "
+                >
+                    Whitepaper
+                </a>
             </div>
         </section>
     );
